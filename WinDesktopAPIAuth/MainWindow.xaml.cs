@@ -190,7 +190,6 @@ namespace WinDesktopAPIAuth
             {
                 TokenInfoText.Text += $"Username: {authResult.Account.Username}" + Environment.NewLine;
                 TokenInfoText.Text += $"Token expires: {authResult.ExpiresOn.ToLocalTime()}" + Environment.NewLine;
-                TokenInfoText.Text += $"Access token: {authResult.AccessToken}" + Environment.NewLine;
             }
         }
 
